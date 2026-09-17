@@ -1,10 +1,14 @@
 #employ a whitelist approach to block files that compilers like quartus makes
 
+#stop tracking everything
 *
-!*/
 
-#track these files
-!.gitignore
+#whitelist these files
 !code/
+!code/**
+
 !synthesis/
+!synthesis/**
+
 !verif/
+!verif/**
